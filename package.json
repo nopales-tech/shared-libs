@@ -1,0 +1,35 @@
+{
+  "name": "@nopales-tech/shared-libs",
+  "version": "1.0.0",
+  "description": "NPM Libraries to Share Across Our Services (DTOs, interfaces, utils, etc.)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "patch-release": "npm version patch && git push && git push --tags",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nopales-tech/shared-libs.git"
+  },
+  "keywords": [
+    "nestjs",
+    "shared",
+    "dtos",
+    "utils",
+    "microservices"
+  ],
+  "author": "Nopales Technology LLC",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
