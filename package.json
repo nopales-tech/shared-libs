@@ -1,6 +1,6 @@
 {
   "name": "@nopales-tech/shared-libs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM Libraries to Share Across Our Services (DTOs, interfaces, utils, etc.)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
