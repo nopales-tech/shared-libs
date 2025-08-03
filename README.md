@@ -3,6 +3,7 @@ NPM libraries to share across microservices
 
 ## Folder Structure
 
+```
 shared-libs/
 ├── src/
 │   ├── dtos/
@@ -22,3 +23,4 @@ shared-libs/
 └── .github/workflows/
     ├── publish.yml
     └── auto-version.yml
+```
